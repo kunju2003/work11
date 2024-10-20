@@ -18,6 +18,7 @@ span{
     position: relative;
     text-align: center;
     color: white;
+    display: flex;
     
   
 }
@@ -48,9 +49,34 @@ h1{
     font-weight: bolder;
     font-size: 20px;
 }
-.btn1{
+ .btn{
   position: absolute;
-      background-color: rgb(50, 137, 168);
      
+      top: 50%;
+     left: 50;
+     background-color: rgb(50, 137, 168);
+     padding: 12px 20px;
+     border-radius: 10px;
      
-}
+     margin-top: 600px;
+     margin-left: 950px;
+     color: white;
+    
+    
+ }
+ .btn1{
+    position: absolute;
+     
+      top: 50%;
+     left: 50;
+     background-color: rgb(50, 137, 168);
+     padding: 12px 20px;
+     border-radius: 10px;
+     
+     margin-top: 600px;
+     margin-left: 825px;
+     color: white;
+     
+    
+
+ }
